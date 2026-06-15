@@ -1,111 +1,282 @@
 # UI / UX Guidelines
 
-# General Principles
+## Purpose
 
-- Keep the interface minimal and readable.
-- Avoid excessive UI windows.
-- Prioritize map visibility.
-- Information should appear contextually.
-- Mouse interactions must feel responsive.
+The user interface should support management gameplay by making operational information easy to access and understand.
 
-# Visual Style
+The UI should feel professional, functional and data-driven rather than decorative.
 
-- Clean strategy-game inspired interface.
-- Neutral dark panels with light text.
-- Minimal animations.
-- Pixel-perfect rendering when possible.
-- UI should not obstruct gameplay area.
+Inspirations:
 
-# Tile Interaction
+* Airport CEO
+* SimAirport
+* OpenTTD
+* Transport Fever
+* Cities Skylines
 
-## Hover
+---
 
-When hovering a tile:
-- Highlight the hovered tile.
-- Display tile information in the bottom hover info bar.
-- Show:
-  - terrain type
-  - colony ownership
-  - available resources
-  - buildings
+# Core Principles
 
-Hover must NOT change game state.
+1. Information first.
+2. Minimize unnecessary clicks.
+3. Keep the map visible.
+4. Consistent interaction patterns.
+5. Reveal complexity gradually.
 
-## Selection
+---
 
-Left click:
-- Select tile.
-- Open contextual action menu when the tile is visible.
-- Persist selection until another tile is selected.
+# Screen Layout
 
-Selection should:
-- Have stronger highlight than hover.
-- Open contextual information panel.
+## Main Layout
 
-# Colony UX
+```text
++--------------------------------------------------+
+| Top Status Bar                                   |
++--------------------------------------------------+
+|                                                  |
+|                                                  |
+|                                                  |
+|                 Map Area                         |
+|                                                  |
+|                                                  |
+|                                                  |
++----------------------+---------------------------+
+| Bottom Info Panel    | Right Context Panel       |
++----------------------+---------------------------+
+```
 
-When hovering or selecting a colony:
-- Show colony name.
-- Show stored resources.
-- Show population.
-- Show production summary.
+The map should occupy most of the screen.
 
-Resource information should be easy to scan quickly.
+---
 
-# Contextual Menus
+# Top Status Bar
 
-Right click drags/pans the map.
+Displays high-level information.
 
-Left click opens action menu on visible tiles.
+Example:
 
-Action menu rules:
-- Only show valid actions.
-- Disabled actions should explain why unavailable.
-- Keep menu compact.
-- Close automatically after action selection.
+```text
+Time: 08:30
 
-# HUD
+Cash: $125,000
 
-HUD areas:
-- Top bar:
-  - turn number
-  - global resources
-- Bottom bar:
-  - hover tile information
-- Side panel:
-  - selected tile/colony details
+Flights Today: 24
 
-# Feedback
+Passengers: 1,450
 
-Player actions must always provide feedback:
-- visual highlight
-- sound effect (future)
-- tooltip or message when invalid
+Reputation: 72%
+```
 
-# Camera
+Rules:
 
-- Smooth camera movement.
-- Mouse wheel zoom (future).
-- Camera boundaries should prevent showing outside map.
+* Always visible.
+* Compact.
+* Single-line layout.
 
-# Performance Rules
+---
 
-- UI rendering must remain lightweight.
-- Avoid allocating objects during rendering.
-- Avoid recalculating static UI every frame.
+# Bottom Info Panel
 
-# Accessibility
+Displays information about the currently selected object.
 
-- Text must remain readable at all zoom levels.
-- Avoid color-only indicators.
-- Important selections should have shape/border indicators.
+Examples:
 
-# Future UX Features
+* Airport
+* Runway
+* Gate
+* Terminal
+* Flight
 
-Planned:
-- Minimap
-- Production overview screen
-- Colony management screen
-- Trade route visualization
-- Fog of war visual feedback
-- Unit movement preview
+Should update immediately after selection.
+
+---
+
+# Right Context Panel
+
+Displays actions available for the selected object.
+
+Examples:
+
+Runway:
+
+* Rename
+* Upgrade
+* Close
+
+Flight:
+
+* Details
+* Prioritize
+* Cancel
+
+Airport:
+
+* Finances
+* Expansion
+* Statistics
+
+---
+
+# Construction Mode
+
+Construction should follow a simple workflow:
+
+```text
+Select Tool
+      ↓
+Preview Placement
+      ↓
+Validate Placement
+      ↓
+Confirm Build
+```
+
+Rules:
+
+* Green = valid placement
+* Red = invalid placement
+* Cost displayed before confirmation
+
+---
+
+# Selection Feedback
+
+Selected tiles must always be obvious.
+
+Requirements:
+
+* Highlight border
+* Persistent until deselected
+* Distinct from hover state
+
+Hover and selection must never use the same visual style.
+
+---
+
+# Tooltips
+
+All buttons should provide tooltips.
+
+Tooltips should answer:
+
+* What is this?
+* What does it do?
+* Why would I use it?
+
+Example:
+
+```text
+Runway
+
+Allows aircraft to land and take off.
+
+Capacity:
+20 flights/day
+```
+
+---
+
+# Information Hierarchy
+
+Priority order:
+
+1. Critical alerts
+2. Financial information
+3. Flight operations
+4. Airport statistics
+5. Historical data
+
+Players should never search for critical information.
+
+---
+
+# Colors
+
+Use color sparingly.
+
+Recommended meanings:
+
+Green
+
+* Positive
+* Profitable
+* Available
+
+Yellow
+
+* Warning
+* Near capacity
+
+Red
+
+* Error
+* Congestion
+* Negative balance
+
+Blue
+
+* Informational
+
+Do not rely exclusively on color.
+
+Always provide icons or text.
+
+---
+
+# Notifications
+
+Notifications should be concise.
+
+Good:
+
+```text
+Flight AZ123 delayed.
+```
+
+Bad:
+
+```text
+A delay has occurred due to operational constraints.
+```
+
+Notifications should disappear automatically.
+
+Important notifications should remain accessible in a log.
+
+---
+
+# MVP UI Scope
+
+Initial version should contain only:
+
+* Top status bar
+* Construction menu
+* Tile selection
+* Information panel
+* Basic notifications
+
+Avoid:
+
+* Complex windows
+* Nested menus
+* Multiple dashboards
+* Passenger detail screens
+
+Keep the MVP focused and lightweight.
+
+---
+
+# AI Guidelines
+
+When creating new screens:
+
+* Reuse existing layout patterns.
+* Keep the map visible whenever possible.
+* Avoid modal dialogs.
+* Favor side panels over popups.
+* Maintain consistency with existing UI components.
+* Prioritize usability over visual complexity.
+
+```
+```
