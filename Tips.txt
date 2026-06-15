@@ -1,3 +1,3 @@
 Abrir editor
-cd C:\Users\marca\source\repos\ProjectY\Content
+cd C:\Users\marca\source\repos\ProjectZ\Content
 dotnet mgcb-editor
