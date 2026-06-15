@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public class TurnLog
     {

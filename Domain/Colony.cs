@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectY.Domain
+namespace ProjectZ.Domain
 {
     public class Colony
     {

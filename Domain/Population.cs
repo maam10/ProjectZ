@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjectY.Domain
+namespace ProjectZ.Domain
 {
     public class Population
     {

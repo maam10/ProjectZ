@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
-using ProjectY.Domain;
+using ProjectZ.Domain;
 
-namespace ProjectY.Core.Factories
+namespace ProjectZ.Core.Factories
 {
     public static class UnitFactory
     {

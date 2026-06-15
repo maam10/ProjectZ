@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ProjectY.Core.Maps
+namespace ProjectZ.Core.Maps
 {
     public class MapDefinition
     {

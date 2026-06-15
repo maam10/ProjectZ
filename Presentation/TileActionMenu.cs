@@ -2,9 +2,9 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using ProjectY.Core.Buildings;
-using ProjectY.Core.Commands;
-using ProjectY.Core;
+using ProjectZ.Core.Buildings;
+using ProjectZ.Core.Commands;
+using ProjectZ.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 
-namespace ProjectY.Presentation
+namespace ProjectZ.Presentation
 {
     public class TileActionMenu
     {

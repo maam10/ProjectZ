@@ -1,11 +1,11 @@
-﻿using ProjectY.Domain;
+﻿using ProjectZ.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public class Map
     {

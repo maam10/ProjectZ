@@ -2,14 +2,14 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using ProjectY.Core;
-using ProjectY.Presentation;
-using ProjectY.Presentation.UI;
+using ProjectZ.Core;
+using ProjectZ.Presentation;
+using ProjectZ.Presentation.UI;
 using Gum.Forms;
 using Gum.Forms.Controls;
 using MonoGameGum;
 
-namespace ProjectY
+namespace ProjectZ
 {
     public class Game1 : Game
     {
@@ -43,7 +43,7 @@ namespace ProjectY
 
         public Game1()
         {
-            Console.WriteLine("Starting ProjectY Version: 0.1-foundation");
+            Console.WriteLine("Starting ProjectZ Version: 0.1-foundation");
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;

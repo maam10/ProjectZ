@@ -4,9 +4,9 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectY.Simulation;
+using ProjectZ.Simulation;
 
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public class GameManager
     {

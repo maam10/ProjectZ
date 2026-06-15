@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ProjectY.Domain;
+using ProjectZ.Domain;
 
-namespace ProjectY.Core.Buildings
+namespace ProjectZ.Core.Buildings
 {
     public static class BuildingCatalog
     {

@@ -1,2 +1,2 @@
-﻿using var game = new ProjectY.Game1();
+﻿using var game = new ProjectZ.Game1();
 game.Run();

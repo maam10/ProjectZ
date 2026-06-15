@@ -1,4 +1,4 @@
-namespace ProjectY.Domain
+namespace ProjectZ.Domain
 {
     public enum BuildingType
     {

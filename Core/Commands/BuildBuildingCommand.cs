@@ -1,7 +1,7 @@
-using ProjectY.Domain;
+using ProjectZ.Domain;
 using System.Linq;
 
-namespace ProjectY.Core.Commands
+namespace ProjectZ.Core.Commands
 {
     public class BuildBuildingCommand : GameCommand
     {

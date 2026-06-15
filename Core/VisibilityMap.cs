@@ -1,6 +1,6 @@
 using System;
 
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public class VisibilityMap
     {

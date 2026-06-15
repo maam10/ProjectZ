@@ -1,7 +1,7 @@
-using ProjectY.Core;
-using ProjectY.Core.Buildings;
+using ProjectZ.Core;
+using ProjectZ.Core.Buildings;
 
-namespace ProjectY.Simulation
+namespace ProjectZ.Simulation
 {
     public class ProductionSystem : ISimulationSystem
     {

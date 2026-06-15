@@ -1,11 +1,11 @@
-using ProjectY.Core;
-using ProjectY.Domain;
+using ProjectZ.Core;
+using ProjectZ.Domain;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using System;
 
-namespace ProjectY.Presentation
+namespace ProjectZ.Presentation
 {
     public class UnitRenderer
     {

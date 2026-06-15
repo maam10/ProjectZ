@@ -1,7 +1,7 @@
 using System;
-using ProjectY.Core;
+using ProjectZ.Core;
 
-namespace ProjectY.Simulation
+namespace ProjectZ.Simulation
 {
     public class FoodConsumptionSystem : ISimulationSystem
     {

@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 
-namespace ProjectY.Presentation.UI;
+namespace ProjectZ.Presentation.UI;
 
 public class ActionButton
 {

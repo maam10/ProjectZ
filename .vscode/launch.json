@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "C#: ProjectY Debug",
+        "name": "C#: ProjectZ Debug",
         "type": "dotnet",
         "request": "launch",
-        "projectPath": "${workspaceFolder}/ProjectY.csproj"
+        "projectPath": "${workspaceFolder}/ProjectZ.csproj"
       }
     ],
   }

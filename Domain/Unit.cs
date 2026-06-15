@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 
-namespace ProjectY.Domain
+namespace ProjectZ.Domain
 {
     public class Unit
     {

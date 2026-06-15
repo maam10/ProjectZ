@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectY.Domain;
+using ProjectZ.Domain;
 
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public class World
     {

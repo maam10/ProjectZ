@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Text.Json;
-using ProjectY.Domain;
+using ProjectZ.Domain;
 
-namespace ProjectY.Core.Maps
+namespace ProjectZ.Core.Maps
 {
     public static class MapLoader
     {

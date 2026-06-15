@@ -1,14 +1,14 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using ProjectY.Core;
+using ProjectZ.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectY.Presentation
+namespace ProjectZ.Presentation
 {
     public class TileInfoPanel
     {

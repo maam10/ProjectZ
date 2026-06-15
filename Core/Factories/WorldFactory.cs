@@ -2,12 +2,12 @@ using System;
 using System.IO;
 using System.Linq;
 using Microsoft.Xna.Framework;
-using ProjectY.Core.Buildings;
-using ProjectY.Core.Factories;
-using ProjectY.Core.Maps;
-using ProjectY.Domain;
+using ProjectZ.Core.Buildings;
+using ProjectZ.Core.Factories;
+using ProjectZ.Core.Maps;
+using ProjectZ.Domain;
 
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public static class WorldFactory
     {

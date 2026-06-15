@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectY.Core;
-using ProjectY.Core.Buildings;
+using ProjectZ.Core;
+using ProjectZ.Core.Buildings;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace ProjectY.Presentation
+namespace ProjectZ.Presentation
 {
     public class BottomInfoBar
     {

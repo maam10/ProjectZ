@@ -1,4 +1,4 @@
-namespace ProjectY.Core
+namespace ProjectZ.Core
 {
     public enum VisibilityState
     {
