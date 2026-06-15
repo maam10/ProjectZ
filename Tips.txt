@@ -1,0 +1,3 @@
+Abrir editor
+cd C:\Users\marca\source\repos\ProjectY\Content
+dotnet mgcb-editor

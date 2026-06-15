@@ -1,0 +1,20 @@
+{
+  "UserEvents": {
+    "493fdf88f2302052fef3b8e259b142cb28ef7177fdbc52aa3274e41074831624": [
+      {
+        "NewName": "HudScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2026-05-11T21:54:40.8686562Z"
+      },
+      {
+        "NewName": "ActionBar",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-05-11T21:55:02.3687708Z"
+      }
+    ]
+  }
+}

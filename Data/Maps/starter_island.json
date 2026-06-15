@@ -1,0 +1,37 @@
+{
+  "name": "starter_island",
+  "width": 20,
+  "height": 15,
+  "tiles": [
+    "WWWWWWWWWWWWWWWWWWWW",
+    "WGGGGGFFFFFGGGGGGGGW",
+    "WGGGGFFFFFFGGGGGGGGW",
+    "WGGGFFFFMMFFGGGGGGGW",
+    "WGGGFFFMMMFFGGGGGGGW",
+    "WGGGGFFMMMFFGGGGGGGW",
+    "WGGGGGFFFFFGGGGGGGGW",
+    "WGGGGGGWGGGGGGGGGGGW",
+    "WGGGGGGFFFFFGGGGGGGW",
+    "WGGGGGFFFFFFGGGGGGGW",
+    "WGGGGGFFMMMFGGGGGGGW",
+    "WGGGGGGFMMFGGGGGGGGW",
+    "WGGGGGGFFFFGGGGGGGGW",
+    "WGGGGGGGGGGGGGGGGGGW",
+    "WWWWWWWWWWWWWWWWWWWW"
+  ],
+  "colonies": [
+    {
+      "name": "New Hope",
+      "x": 10,
+      "y": 7
+    }
+  ],
+  "buildings": [
+    {
+      "type": "Farm",
+      "x": 11,
+      "y": 6,
+      "colonyName": "New Hope"
+    }
+  ]
+}
